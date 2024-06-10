@@ -48,6 +48,12 @@ header{
     border-radius: 30px;
     font-weight: 600;
 }
+.label:hover{
+    padding: 22px 52px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 18px;
+} 
 /* END OF LABELS */
 
 
