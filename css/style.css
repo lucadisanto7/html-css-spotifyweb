@@ -201,6 +201,118 @@ span:hover, i:hover{
     width: 35%;
     margin: 3px auto;
 }
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.footer .track-info {
+    display: flex;
+    align-items: center;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.footer .track-info img {
+    width: 56px;
+    height: 56px;
+    margin-right: 10px;
+}
+.footer .track-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer .track-details span {
+    font-size: 14px;
+}
+.footer .track-details .track-title {
+    font-weight: bold;
+}
+.footer .center-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 2;
+}
+.footer .controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.footer .controls i {
+    color: #ffffff;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.footer .progress-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+}
+.footer .progress-bar span {
+    font-size: 12px;
+    width: 35px;
+    text-align: center;
+}
+.footer .progress {
+    flex: 1;
+    height: 4px;
+    background: #535353;
+    border-radius: 2px;
+    margin: 0 5px;
+    position: relative;
+}
+.footer .progress-filled {
+    width: 25%;
+    height: 100%;
+    background: white;
+    border-radius: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.extra-controls {
+    display: flex;
+    align-items: center;
+}
+.extra-controls i {
+    color: #b3b3b3;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.extra-controls i:hover {
+    color: #ffffff;
+}
+.volume-bar {
+    display: flex;
+    align-items: center;
+}
+.volume {
+    width: 80px;
+    height: 4px;
+    background: #535353;
+    border-radius: 2px;
+    margin-left: 10px;
+    position: relative;
+}
+.volume-filled {
+    width: 30%; 
+    height: 100%;
+    background: white;
+    border-radius: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 /* END OF STYLING */
 
 
