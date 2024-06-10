@@ -23,6 +23,7 @@ body{
 .main-content{
     width: calc(100vw - 70px);
     background-color: #151923;
+    overflow-y:auto
 }
 header{
     position: fixed;
@@ -37,13 +38,14 @@ header{
 .bottom-section{
     background-color: #282828;
     height: 100px;
+    z-index: 2;
 }
 .row{
     display: flex;
     flex-wrap: wrap;
 }
-.col-100{
-    width: 100%;
+.col-50{
+    width: calc(50%)
 }
 /* END OF LAYOUT */
 
@@ -93,6 +95,9 @@ header{
     gap: 20px;
     justify-content: center;
 }
+.text-center{
+    text-align: center;
+}
 /* END OF TEXT STYLING */
 
 
@@ -116,6 +121,15 @@ header{
 }
 .plus{
     padding: 8px;
+}
+.image{
+    width: 100%;
+    margin-right: 20px;
+}
+.round-image{
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 100%;
 }
 /* END OF IMAGES */
 
@@ -148,8 +162,26 @@ span:hover, i:hover{
 .mg-top-150{
     margin-top: 150px;
 }
-.mg-left-15{
-    margin-left: 15px;
+.mg-left-5{
+    margin-left: 5px;
+}
+.mg-right-5{
+    margin-right: 5px;
+}
+.mg-left-20{
+    margin-left: 20px;
+}
+.mg-right-20{
+    margin-right: 20px;
+}
+.mg-top-10{
+    margin-top: 10px;
+}
+.mg-top-40{
+    margin-top: 40px;
+}
+.mg-bot-40{
+    margin-bottom: 40px;
 }
 .border-green{
     border: 1.5px solid #adfe2e;
