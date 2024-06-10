@@ -135,6 +135,7 @@ header{
 .image{
     width: 100%;
     margin-right: 20px;
+    position: relative;
 }
 .round-image{
     width: 100%;
@@ -209,7 +210,7 @@ span:hover, i:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px;
+    padding: 23px;
     box-sizing: border-box;
 }
 .footer .track-info {
@@ -339,6 +340,37 @@ span:hover, i:hover{
     top: 0;
     left: 0;
 }
+.circle-play:hover{
+    font-size: 31px;
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.hover-image {
+    width: 100%;
+}
+.hover-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 90px;
+}
+.hover-button i{
+    font-size: 40px;
+}
+.image-container:hover .hover-image {
+    transform: scale(1.1);
+}
+
+.image-container:hover .hover-button {
+    opacity: 1;
+}
+
 /* END OF STYLING */
 
 
