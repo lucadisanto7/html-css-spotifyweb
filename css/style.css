@@ -50,7 +50,7 @@ header{
 
 /* LABELS */
 .label{
-    padding: 20px 50px;
+    padding: 15px 45px;
     border: 2px solid white;
     border-radius: 30px;
     font-weight: 600;
@@ -85,6 +85,13 @@ header{
 }
 .font-size-40{
     font-size: 40px;
+}
+.row-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 /* END OF TEXT STYLING */
 
@@ -137,6 +144,17 @@ hr{
 }
 span:hover, i:hover{
     color: white;
+}
+.mg-top-150{
+    margin-top: 150px;
+}
+.mg-left-15{
+    margin-left: 15px;
+}
+.border-green{
+    border: 1.5px solid #adfe2e;
+    width: 35%;
+    margin: 3px auto;
 }
 /* END OF STYLING */
 
