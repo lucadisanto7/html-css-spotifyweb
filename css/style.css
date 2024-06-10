@@ -18,6 +18,7 @@ body{
     width: 70px;
     background-color: black;
     z-index: 1;
+    overflow-y: auto;
 }
 .main-content{
     width: calc(100vw - 70px);
@@ -212,6 +213,7 @@ span:hover, i:hover{
     justify-content: space-between;
     padding: 23px;
     box-sizing: border-box;
+    z-index: 3;
 }
 .footer .track-info {
     display: flex;
@@ -341,7 +343,7 @@ span:hover, i:hover{
     left: 0;
 }
 .circle-play:hover{
-    font-size: 31px;
+    font-size: 33px;
 }
 .image-container {
     position: relative;
@@ -429,6 +431,8 @@ span:hover, i:hover{
         width: 25%;
     }
     /* END OF LAYOUT */
+    
+    
     /* STYLING */
     .mg-right-10{
         margin-right: 10px;
