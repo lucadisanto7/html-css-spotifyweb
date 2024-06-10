@@ -17,13 +17,16 @@ body{
 .sidebar{
     width: 70px;
     background-color: black;
-    z-index: 2;
-    position: relative;
+    z-index: 1;
 }
 .main-content{
     width: calc(100vw - 70px);
     background-color: #151923;
     overflow-y:auto;
+    padding-bottom: 50px;
+}
+.content{
+    position: relative;
 }
 header{
     position: fixed;
@@ -37,8 +40,15 @@ header{
 }
 .bottom-section{
     background-color: #282828;
-    height: 100px;
     z-index: 2;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
 }
 .row{
     display: flex;
