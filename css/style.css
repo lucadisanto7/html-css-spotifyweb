@@ -38,6 +38,13 @@ header{
     background-color: #282828;
     height: 100px;
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-100{
+    width: 100%;
+}
 /* END OF LAYOUT */
 
 
@@ -168,11 +175,18 @@ span:hover, i:hover{
     .mg-left-10{
         margin-left: 10px;
     }
+    .mg-left-13{
+        margin-left: 13px;
+    }
+    .border-left-green{
+        border-left: 3px solid #adfe2e;
+        padding-left: 10px;
+    }
     /* END OF STYLING */
 }
 @media screen and (min-width: 768px){
     .sidebar{
-        width: 250px;
+        width: 350px;
     }
     .main-content{
         width: calc(100vw - 250px);
