@@ -359,7 +359,7 @@ span:hover, i:hover{
     transform: translate(-50%, -50%);
     opacity: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 90px;
+    padding: 180px;
 }
 .hover-button i{
     font-size: 40px;
