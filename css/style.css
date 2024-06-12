@@ -223,7 +223,7 @@ span:hover, i:hover{
     padding: 23px;
     box-sizing: border-box;
     z-index: 3;
-    overflow-x: auto;
+    
 }
 .footer .track-info {
     display: flex;
