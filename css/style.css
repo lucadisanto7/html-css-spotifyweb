@@ -144,6 +144,13 @@ header{
     margin-right: 20px;
     border-radius: 100%;
 }
+.display-flex{
+    display: flex;
+    justify-content: center;
+}
+.white-img{
+    width: 70%;
+}
 /* END OF IMAGES */
 
 /* STYLING */
