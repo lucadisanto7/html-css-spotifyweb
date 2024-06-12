@@ -121,6 +121,7 @@ header{
     margin-top: 15px;
     height: calc(100% - 25px);
     background-color: black;
+    width: 94%;
 }
 .profile-img{
     width: 40px;
@@ -222,6 +223,7 @@ span:hover, i:hover{
     padding: 23px;
     box-sizing: border-box;
     z-index: 3;
+    overflow-x: auto;
 }
 .footer .track-info {
     display: flex;
