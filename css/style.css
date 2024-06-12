@@ -327,7 +327,7 @@ span:hover, i:hover{
     align-items: center;
 }
 .volume {
-    width: 80px;
+    width: 6vw;
     height: 4px;
     background: #535353;
     border-radius: 2px;
